@@ -1,0 +1,28 @@
+
+#photo
+{
+    margin-top: 10%;
+    margin-right: 5%;
+    order: 3;
+}
+#titre
+{
+    order: 2;
+}
+
+#coordonnées
+{
+    order: 1;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#entete
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
