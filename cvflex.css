@@ -14,7 +14,7 @@
 
 #coordonnées
 {
-    background-color: white;
+    background-color: gray;
     order: 1;
     margin-top: 10%;
     margin-left: 0%;
@@ -48,21 +48,21 @@ body
 {
     display: none;
     color: burlywood;
-    text-shadow: 1px 1px whitesmoke;
+    text-shadow: 1px 1px black;
 }
 
 #form
 {
     display: none;
     color: burlywood;
-    text-shadow: 1px 1px whitesmoke;
+    text-shadow: 1px 1px black;
 }
 
 #comp
 {
     display: none;
     color: burlywood;
-    text-shadow: 1px 1px whitesmoke;
+    text-shadow: 1px 1px black;
 }
 
 h2
