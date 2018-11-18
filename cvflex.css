@@ -2,27 +2,118 @@
 #photo
 {
     margin-top: 10%;
-    margin-right: 5%;
+    margin-right: 0%;
     order: 3;
 }
 #titre
 {
     order: 2;
+
 }
 
 #coordonnées
 {
+
     order: 1;
     margin-top: 10%;
-    margin-left: 5%;
+    margin-left: 0%;
 }
 
 #entete
 {
+    font-size: 15px;
+    text-shadow: 1px 1px darkblue;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.parallax
+{
+    background-image: url("backgrounds.jpg");
+    height: 280px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: cover;
+
+}
+
+body
+{
+    background-color: gray;
+}
+
+#expro
+{
+    color: burlywood;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+#form
+{
+    color: burlywood;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+#comp
+{
+    color: burlywood;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+h2
+{
+    font-size: 25px;
+    color: burlywood;
+    text-shadow: 1px 1px whitesmoke;
+    animation: anime 8s infinite;
+}
 
 
+@keyframes anime {
+    0% {margin-left: 0%}
+    25% {margin-left: 25%}
+    50% {margin-left: 50%}
+    75% {margin-left: 75%}
+    100% {margin-left: 0%}
+}
+
+h3
+{
+    font-size: 25px;
+    color: burlywood;
+    text-shadow: 1px 1px whitesmoke;
+    animation: rota 8s infinite;
+}
+
+@keyframes rota {
+    from{
+        -webkit-transform: rotateX(0deg);
+    }
+    to{
+        -webkit-transform: rotateX(360deg);
+    }
+}
+
+h4
+{
+    font-size: 25px;
+    color: burlywood;
+    text-shadow: 1px 1px whitesmoke;
+    animation: ro 8s infinite;
+}
+
+
+@keyframes ro {
+    from{
+        -webkit-transform: rotateY(0deg);
+    }
+    to{
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+button
+{
+    border-radius: 45%;
+}

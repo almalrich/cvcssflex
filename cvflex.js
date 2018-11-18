@@ -14,3 +14,13 @@ document.getElementById("btform").addEventListener("click", function () {
         document.getElementById("form").style.display="block";
     }
 });
+
+document.getElementById("btcompet").addEventListener("click", function () {
+    if (document.getElementById("comp").style.display=="block"){
+        document.getElementById("comp").style.display="none";
+    } else {
+        document.getElementById("comp").style.display="block";
+    }
+});
+
+
