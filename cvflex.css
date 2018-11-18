@@ -11,9 +11,10 @@
 
 }
 
+
 #coordonnées
 {
-
+    background-color: white;
     order: 1;
     margin-top: 10%;
     margin-left: 0%;
@@ -30,8 +31,8 @@
 
 .parallax
 {
-    background-image: url("backgrounds.jpg");
-    height: 280px;
+    background-image: url("css-code.jpg");
+    height: 350px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: cover;
@@ -40,23 +41,26 @@
 
 body
 {
-    background-color: gray;
+    background-image: url("backgrounds.jpg");
 }
 
 #expro
 {
+    display: none;
     color: burlywood;
     text-shadow: 1px 1px whitesmoke;
 }
 
 #form
 {
+    display: none;
     color: burlywood;
     text-shadow: 1px 1px whitesmoke;
 }
 
 #comp
 {
+    display: none;
     color: burlywood;
     text-shadow: 1px 1px whitesmoke;
 }
