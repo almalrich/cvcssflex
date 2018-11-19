@@ -2,7 +2,7 @@
 #photo
 {
     margin-top: 10%;
-    margin-right: 0%;
+    margin-right: 0;
     order: 3;
 }
 #titre
@@ -17,7 +17,7 @@
     background-color: gray;
     order: 1;
     margin-top: 10%;
-    margin-left: 0%;
+    margin-left: 0;
 }
 
 #entete
@@ -43,12 +43,11 @@
 body
 {
     background-image: url("backgrounds.jpg");
-   ;
+
 }
 
 #expro
 {
-    font-family: "Tekton Pro";
     display: none;
     color: burlywood;
     text-shadow: 1px 1px black;
@@ -78,11 +77,11 @@ h2
 
 
 @keyframes anime {
-    0% {margin-left: 0%}
+    0% {margin-left: 0}
     25% {margin-left: 25%}
     50% {margin-left: 50%}
     75% {margin-left: 75%}
-    100% {margin-left: 0%}
+    100% {margin-left: 0}
 }
 
 h3
