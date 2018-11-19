@@ -22,6 +22,7 @@
 
 #entete
 {
+
     font-size: 15px;
     text-shadow: 1px 1px darkblue;
     display: flex;
@@ -32,7 +33,7 @@
 .parallax
 {
     background-image: url("css-code.jpg");
-    height: 350px;
+    height: 390px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: cover;
@@ -42,10 +43,12 @@
 body
 {
     background-image: url("backgrounds.jpg");
+   ;
 }
 
 #expro
 {
+    font-family: "Tekton Pro";
     display: none;
     color: burlywood;
     text-shadow: 1px 1px black;
