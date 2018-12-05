@@ -1,6 +1,6 @@
 
 
-
+/*
 
 document.getElementById("btexp").addEventListener("click", function f () {
    if (document.getElementById("expro").style.display=="block"){
@@ -28,5 +28,11 @@ document.getElementById("btcompet").addEventListener("click", function f () {
 });
 
 document.getElementById("body").innerHTML=alert("appuyer sur les + si vous voulez en découvrir plus...")
+*/
+$(function () {
+    $('#btexp').click(function () {
+        $('#expro').show()
+    });
 
+});
 

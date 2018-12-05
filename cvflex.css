@@ -22,7 +22,7 @@
 
 #entete
 {
-
+    color: blueviolet;
     font-size: 15px;
     text-shadow: 1px 1px darkblue;
     display: flex;
@@ -32,7 +32,7 @@
 
 .parallax
 {
-    background-image: url("css-code.jpg");
+    background-image: url("backgroundcvflex.jpg");
     height: 390px;
     background-attachment: fixed;
     background-position: center;
@@ -42,35 +42,35 @@
 
 body
 {
-    background-image: url("backgrounds.jpg");
+    background-image: url("css-code.jpg");
 
 }
 
 #expro
 {
-    display: none;
-    color: burlywood;
+    display: flex;
+    color: black;
     text-shadow: 1px 1px black;
 }
 
 #form
 {
-    display: none;
-    color: burlywood;
+    display: flex;
+    color: black;
     text-shadow: 1px 1px black;
 }
 
 #comp
 {
-    display: none;
-    color: burlywood;
+    display: flex;
+    color: black;
     text-shadow: 1px 1px black;
 }
 
 h2
 {
     font-size: 25px;
-    color: burlywood;
+    color: blueviolet;
     text-shadow: 1px 1px whitesmoke;
     animation: anime 8s infinite;
 }
@@ -87,7 +87,7 @@ h2
 h3
 {
     font-size: 25px;
-    color: burlywood;
+    color: blueviolet;
     text-shadow: 1px 1px whitesmoke;
     animation: rota 8s infinite;
 }
@@ -104,7 +104,7 @@ h3
 h4
 {
     font-size: 25px;
-    color: burlywood;
+    color: blueviolet;
     text-shadow: 1px 1px whitesmoke;
     animation: ro 8s infinite;
 }
