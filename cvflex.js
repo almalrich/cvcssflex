@@ -27,12 +27,17 @@ document.getElementById("btcompet").addEventListener("click", function f () {
     }
 });
 
-document.getElementById("body").innerHTML=alert("appuyer sur les + si vous voulez en découvrir plus...")
+comment faire la meme chose en beaucoup moins de ligne de code merci Jquery
 */
-$(function () {
-    $('#btexp').click(function () {
-        $('#expro').show()
-    });
 
+$("#btexp").click(function () {
+    $("#expro").toggle();
 });
 
+$("#btform").click(function () {
+    $("#form").toggle();
+});
+
+$("#btcompet").click(function () {
+    $("#comp").toggle();
+});

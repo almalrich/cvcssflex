@@ -32,7 +32,7 @@
 
 .parallax
 {
-    background-image: url("backgroundcvflex.jpg");
+    background-image: url("css-code.jpg");
     height: 390px;
     background-attachment: fixed;
     background-position: center;
@@ -42,28 +42,28 @@
 
 body
 {
-    background-image: url("css-code.jpg");
+    background-image: url("backgroundcvflex.jpg");
 
 }
 
 #expro
 {
     display: flex;
-    color: black;
+    color: whitesmoke;
     text-shadow: 1px 1px black;
 }
 
 #form
 {
     display: flex;
-    color: black;
+    color: whitesmoke;
     text-shadow: 1px 1px black;
 }
 
 #comp
 {
     display: flex;
-    color: black;
+    color: whitesmoke;
     text-shadow: 1px 1px black;
 }
 
